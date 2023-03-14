@@ -6,8 +6,6 @@ def main(s):
     Returns:
         bool: answer
     """
-    a = 'False'
-    if s == s.lower():
-        a = 'True'
-    return a
+   
+    return s.isalpha()
 print(main('dfg fsdf'))
