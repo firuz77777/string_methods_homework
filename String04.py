@@ -6,5 +6,8 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+    a = 'False'
+    if s == s.lower():
+        a = 'True'
+    return a
+print(main('dfg fsdf'))
