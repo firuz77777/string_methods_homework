@@ -7,5 +7,5 @@ def main(s):
         str: answer
     """
     
-    return s.capitalize()
-print(main('wejwije'))
+    return s.title()
+print(main('wejwije sfs'))
